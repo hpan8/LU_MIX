@@ -13,3 +13,9 @@ python GetCenters.py
 	#output files "./Output/dist_mat.txt"  
 	#...[FID1,FID1_dist,FID2_dist, ... , FIDN_dist;FID2,FID1_dist,FID2_dist, ... , FIDN_dist;...]   
 	#input files "./Data/centerlist.csv" (export from shapefiles from ArcGIS)  
+
+python Weighted_Entropy.py
+	#calculate and write weighted entropy for each FID  
+	#output files "./Output/WeightedEntropy.csv"   
+	#[FID1,weighted_ent;FID2,weighted_ent;...]
+	#input files"""./Data/centerlist.csv"  
